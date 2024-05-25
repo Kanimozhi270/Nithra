@@ -1,0 +1,1200 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    tools:context=".Departments">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/baseline_arrow_back_ios_24"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Office Project"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginStart="70dp"
+            android:layout_marginTop="17dp"/>
+    </androidx.appcompat.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_margin="15dp"
+                    app:cardBackgroundColor="#8E24AA"
+                    app:cardCornerRadius="15dp"
+                    android:layout_marginTop="10dp"
+                    app:cardElevation="2dp">
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="6dp"
+                        app:cardBackgroundColor="#FBFDFD"
+                        app:cardCornerRadius="10dp"
+                        android:layout_marginTop="5dp"
+                        app:cardElevation="0dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <androidx.appcompat.widget.AppCompatTextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="5dp"
+                                android:text="Nithra Jobs"
+                                android:padding="3dp"
+                                android:textColor="@color/black"
+                                android:textSize="20sp"
+                                android:textStyle="bold" />
+                            <TextView
+                                android:id="@+id/jobs"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="https://nithrajobs.com/"
+                                android:layout_marginStart="5dp"
+                                android:textColor="#20A8FA" />
+
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_margin="15dp"
+                    app:cardBackgroundColor="#8E24AA"
+                    app:cardCornerRadius="15dp"
+                    android:layout_marginTop="10dp"
+                    app:cardElevation="2dp">
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="6dp"
+                        app:cardBackgroundColor="#FBFDFD"
+                        app:cardCornerRadius="10dp"
+                        android:layout_marginTop="5dp"
+                        app:cardElevation="0dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <androidx.appcompat.widget.AppCompatTextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="5dp"
+                                android:padding="3dp"
+                                android:text="nithra matrimony"
+                                android:textColor="@color/black"
+                                android:textSize="20sp"
+                                android:textStyle="bold" />
+                            <TextView
+                                android:id="@+id/matrimony"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="https://nithramatrimony.net/"
+                                android:layout_marginStart="5dp"
+                                android:textColor="#20A8FA" />
+
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_margin="15dp"
+                    app:cardBackgroundColor="#8E24AA"
+                    app:cardCornerRadius="15dp"
+                    android:layout_marginTop="10dp"
+                    app:cardElevation="2dp">
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="6dp"
+                        app:cardBackgroundColor="#FBFDFD"
+                        app:cardCornerRadius="10dp"
+                        android:layout_marginTop="5dp"
+                        app:cardElevation="0dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <androidx.appcompat.widget.AppCompatTextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="5dp"
+                                android:padding="3dp"
+                                android:text="Nithramobi"
+                                android:textColor="@color/black"
+                                android:textSize="20sp"
+                                android:textStyle="bold" />
+                            <TextView
+                                android:id="@+id/nithramobi"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="https://nithrajobs.com/"
+                                android:layout_marginStart="5dp"
+                                android:textColor="#20A8FA" />
+
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_margin="15dp"
+                    app:cardBackgroundColor="#8E24AA"
+                    app:cardCornerRadius="15dp"
+                    android:layout_marginTop="10dp"
+                    app:cardElevation="2dp">
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="6dp"
+                        app:cardBackgroundColor="#FBFDFD"
+                        app:cardCornerRadius="10dp"
+                        android:layout_marginTop="5dp"
+                        app:cardElevation="0dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <androidx.appcompat.widget.AppCompatTextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="5dp"
+                                android:padding="3dp"
+                                android:text="Diya Store"
+                                android:textColor="@color/black"
+                                android:textSize="20sp"
+                                android:textStyle="bold" />
+                            <TextView
+                                android:id="@+id/diyastore"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="https://diyastore.in/"
+                                android:layout_marginStart="5dp"
+                                android:textColor="#20A8FA" />
+
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_margin="15dp"
+                    app:cardBackgroundColor="#8E24AA"
+                    app:cardCornerRadius="15dp"
+                    android:layout_marginTop="10dp"
+                    app:cardElevation="2dp">
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="6dp"
+                        app:cardBackgroundColor="#FBFDFD"
+                        app:cardCornerRadius="10dp"
+                        android:layout_marginTop="5dp"
+                        app:cardElevation="0dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <androidx.appcompat.widget.AppCompatTextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="5dp"
+                                android:padding="3dp"
+                                android:text="nithra books"
+                                android:textColor="@color/black"
+                                android:textSize="20sp"
+                                android:textStyle="bold" />
+                            <TextView
+                                android:id="@+id/nithrabooks"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="https://nithrabooks.com/"
+                                android:layout_marginStart="5dp"
+                                android:textColor="#20A8FA" />
+
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_margin="15dp"
+                    app:cardBackgroundColor="#8E24AA"
+                    app:cardCornerRadius="15dp"
+                    android:layout_marginTop="10dp"
+                    app:cardElevation="2dp">
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="6dp"
+                        app:cardBackgroundColor="#FBFDFD"
+                        app:cardCornerRadius="10dp"
+                        android:layout_marginTop="5dp"
+                        app:cardElevation="0dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <androidx.appcompat.widget.AppCompatTextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="5dp"
+                                android:padding="3dp"
+                                android:text="Jathagam"
+                                android:textColor="@color/black"
+                                android:textSize="20sp"
+                                android:textStyle="bold" />
+                            <TextView
+                                android:id="@+id/jathagam"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text=" https://nithra.mobi/jathagam/"
+                                android:layout_marginStart="5dp"
+                                android:textColor="#20A8FA" />
+
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_margin="15dp"
+                    app:cardBackgroundColor="#8E24AA"
+                    app:cardCornerRadius="15dp"
+                    android:layout_marginTop="10dp"
+                    app:cardElevation="2dp">
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="6dp"
+                        app:cardBackgroundColor="#FBFDFD"
+                        app:cardCornerRadius="10dp"
+                        android:layout_marginTop="5dp"
+                        app:cardElevation="0dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <androidx.appcompat.widget.AppCompatTextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="5dp"
+                                android:padding="3dp"
+                                android:text="School Inspection"
+                                android:textColor="@color/black"
+                                android:textSize="20sp"
+                                android:textStyle="bold" />
+                            <TextView
+                                android:id="@+id/schoolinspection"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="https://nithraschoolconnect.com/"
+                                android:layout_marginStart="5dp"
+                                android:textColor="#20A8FA" />
+
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_margin="15dp"
+                    app:cardBackgroundColor="#8E24AA"
+                    app:cardCornerRadius="15dp"
+                    android:layout_marginTop="10dp"
+                    app:cardElevation="2dp">
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="6dp"
+                        app:cardBackgroundColor="#FBFDFD"
+                        app:cardCornerRadius="10dp"
+                        android:layout_marginTop="5dp"
+                        app:cardElevation="0dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <androidx.appcompat.widget.AppCompatTextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="5dp"
+                                android:padding="3dp"
+                                android:text="DiyaHomam"
+                                android:textColor="@color/black"
+                                android:textSize="20sp"
+                                android:textStyle="bold" />
+                            <TextView
+                                android:id="@+id/diyahomam"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="https://diyahomam.in/index.php "
+                                android:layout_marginStart="5dp"
+                                android:textColor="#20A8FA" />
+
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_margin="15dp"
+                    app:cardBackgroundColor="#8E24AA"
+                    app:cardCornerRadius="15dp"
+                    android:layout_marginTop="10dp"
+                    app:cardElevation="2dp">
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="6dp"
+                        app:cardBackgroundColor="#FBFDFD"
+                        app:cardCornerRadius="10dp"
+                        android:layout_marginTop="5dp"
+                        app:cardElevation="0dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <androidx.appcompat.widget.AppCompatTextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="5dp"
+                                android:padding="3dp"
+                                android:text="Rescue"
+                                android:textColor="@color/black"
+                                android:textSize="20sp"
+                                android:textStyle="bold" />
+                            <TextView
+                                android:id="@+id/rescue"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="https://nithra.in/rescue-mission/index "
+                                android:layout_marginStart="5dp"
+                                android:textColor="#20A8FA" />
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_margin="15dp"
+                    app:cardBackgroundColor="#8E24AA"
+                    app:cardCornerRadius="15dp"
+                    android:layout_marginTop="10dp"
+                    app:cardElevation="2dp">
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="6dp"
+                        app:cardBackgroundColor="#FBFDFD"
+                        app:cardCornerRadius="10dp"
+                        android:layout_marginTop="5dp"
+                        app:cardElevation="0dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <androidx.appcompat.widget.AppCompatTextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="5dp"
+                                android:padding="3dp"
+                                android:text="Bharath college"
+                                android:textColor="@color/black"
+                                android:textSize="20sp"
+                                android:textStyle="bold" />
+                            <TextView
+                                android:id="@+id/Bharathcollege"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="https://bharath.ac.in/aboutus.php"
+                                android:layout_marginStart="5dp"
+                                android:textColor="#20A8FA" />
+
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_margin="15dp"
+                    app:cardBackgroundColor="#8E24AA"
+                    app:cardCornerRadius="15dp"
+                    android:layout_marginTop="10dp"
+                    app:cardElevation="2dp">
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="6dp"
+                        app:cardBackgroundColor="#FBFDFD"
+                        app:cardCornerRadius="10dp"
+                        android:layout_marginTop="5dp"
+                        app:cardElevation="0dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <androidx.appcompat.widget.AppCompatTextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="5dp"
+                                android:padding="3dp"
+                                android:text="Calander"
+                                android:textColor="@color/black"
+                                android:textSize="20sp"
+                                android:textStyle="bold" />
+                            <TextView
+                                android:id="@+id/calandertoday"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text=" https://tamilcalendar.today/"
+                                android:layout_marginStart="5dp"
+                                android:textColor="#20A8FA" />
+
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_margin="15dp"
+                    app:cardBackgroundColor="#8E24AA"
+                    app:cardCornerRadius="15dp"
+                    android:layout_marginTop="10dp"
+                    app:cardElevation="2dp">
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="6dp"
+                        app:cardBackgroundColor="#FBFDFD"
+                        app:cardCornerRadius="10dp"
+                        android:layout_marginTop="5dp"
+                        app:cardElevation="0dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <androidx.appcompat.widget.AppCompatTextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="5dp"
+                                android:padding="3dp"
+                                android:text="nithra matrimony"
+                                android:textColor="@color/black"
+                                android:textSize="20sp"
+                                android:textStyle="bold" />
+                            <TextView
+                                android:id="@+id/calanderblog"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="https://tamilcalendar.today/blog/"
+                                android:layout_marginStart="5dp"
+                                android:textColor="#20A8FA" />
+
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_margin="15dp"
+                    app:cardBackgroundColor="#8E24AA"
+                    app:cardCornerRadius="15dp"
+                    android:layout_marginTop="10dp"
+                    app:cardElevation="2dp">
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="6dp"
+                        app:cardBackgroundColor="#FBFDFD"
+                        app:cardCornerRadius="10dp"
+                        android:layout_marginTop="5dp"
+                        app:cardElevation="0dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <androidx.appcompat.widget.AppCompatTextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="5dp"
+                                android:padding="3dp"
+                                android:text="Namtamil"
+                                android:textColor="@color/black"
+                                android:textSize="20sp"
+                                android:textStyle="bold" />
+                            <TextView
+                                android:id="@+id/namtamil"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="https://nithra.mobi/namtamil/"
+                                android:layout_marginStart="5dp"
+                                android:textColor="#20A8FA" />
+
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_margin="15dp"
+                    app:cardBackgroundColor="#8E24AA"
+                    app:cardCornerRadius="15dp"
+                    android:layout_marginTop="10dp"
+                    app:cardElevation="2dp">
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="6dp"
+                        app:cardBackgroundColor="#FBFDFD"
+                        app:cardCornerRadius="10dp"
+                        android:layout_marginTop="5dp"
+                        app:cardElevation="0dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <androidx.appcompat.widget.AppCompatTextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="5dp"
+                                android:padding="3dp"
+                                android:text="Namthamil Samaiyal"
+                                android:textColor="@color/black"
+                                android:textSize="20sp"
+                                android:textStyle="bold" />
+                            <TextView
+                                android:id="@+id/namtamilsamaiyal"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text=" https://nithra.mobi/namtamil/samayal/"
+                                android:layout_marginStart="5dp"
+                                android:textColor="#20A8FA" />
+
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:layout_margin="15dp"
+                    app:cardBackgroundColor="#8E24AA"
+                    app:cardCornerRadius="15dp"
+                    android:layout_marginTop="10dp"
+                    app:cardElevation="2dp">
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="6dp"
+                        app:cardBackgroundColor="#FBFDFD"
+                        app:cardCornerRadius="10dp"
+                        android:layout_marginTop="5dp"
+                        app:cardElevation="0dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <androidx.appcompat.widget.AppCompatTextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="5dp"
+                                android:padding="3dp"
+                                android:text="Namtamil AlaguKuripugal"
+                                android:textColor="@color/black"
+                                android:textSize="20sp"
+                                android:textStyle="bold" />
+                            <TextView
+                                android:id="@+id/namtamilalagu"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="https://nithra.mobi/namtamil/alugu_kuripugal/index.php"
+                                android:layout_marginStart="5dp"
+                                android:textColor="#20A8FA" />
+
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:layout_margin="15dp"
+                    app:cardBackgroundColor="#8E24AA"
+                    app:cardCornerRadius="15dp"
+                    android:layout_marginTop="10dp"
+                    app:cardElevation="2dp">
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="6dp"
+                        app:cardBackgroundColor="#FBFDFD"
+                        app:cardCornerRadius="10dp"
+                        android:layout_marginTop="5dp"
+                        app:cardElevation="0dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <androidx.appcompat.widget.AppCompatTextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="5dp"
+                                android:padding="3dp"
+                                android:text="Namtamil Health Tips"
+                                android:textColor="@color/black"
+                                android:textSize="20sp"
+                                android:textStyle="bold" />
+                            <TextView
+                                android:id="@+id/namtamilhealth"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text=" https://nithra.mobi/namtamil/health_tips/index.php"
+                                android:layout_marginStart="5dp"
+                                android:textColor="#20A8FA" />
+
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:layout_margin="15dp"
+                    app:cardBackgroundColor="#8E24AA"
+                    app:cardCornerRadius="15dp"
+                    android:layout_marginTop="10dp"
+                    app:cardElevation="2dp">
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="6dp"
+                        app:cardBackgroundColor="#FBFDFD"
+                        app:cardCornerRadius="10dp"
+                        android:layout_marginTop="5dp"
+                        app:cardElevation="0dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <androidx.appcompat.widget.AppCompatTextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="5dp"
+                                android:padding="3dp"
+                                android:text="Namtamil Jokes"
+                                android:textColor="@color/black"
+                                android:textSize="20sp"
+                                android:textStyle="bold" />
+                            <TextView
+                                android:id="@+id/namtamiljokes"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="https://nithra.mobi/namtamil/jokes/index.php"
+                                android:layout_marginStart="5dp"
+                                android:textColor="#20A8FA" />
+
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:layout_margin="15dp"
+                    app:cardBackgroundColor="#8E24AA"
+                    app:cardCornerRadius="15dp"
+                    android:layout_marginTop="10dp"
+                    app:cardElevation="2dp">
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="6dp"
+                        app:cardBackgroundColor="#FBFDFD"
+                        app:cardCornerRadius="10dp"
+                        android:layout_marginTop="5dp"
+                        app:cardElevation="0dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <androidx.appcompat.widget.AppCompatTextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="5dp"
+                                android:padding="3dp"
+                                android:text="Namtamil Leader History"
+                                android:textColor="@color/black"
+                                android:textSize="20sp"
+                                android:textStyle="bold" />
+                            <TextView
+                                android:id="@+id/namtamilleader"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text=" https://nithra.mobi/namtamil/leader_history/index.php"
+                                android:layout_marginStart="5dp"
+                                android:textColor="#20A8FA" />
+
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:layout_margin="15dp"
+                    app:cardBackgroundColor="#8E24AA"
+                    app:cardCornerRadius="15dp"
+                    android:layout_marginTop="10dp"
+                    app:cardElevation="2dp">
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="6dp"
+                        app:cardBackgroundColor="#FBFDFD"
+                        app:cardCornerRadius="10dp"
+                        android:layout_marginTop="5dp"
+                        app:cardElevation="0dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <androidx.appcompat.widget.AppCompatTextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="5dp"
+                                android:padding="3dp"
+                                android:text="Namtamil PonMozhigal"
+                                android:textColor="@color/black"
+                                android:textSize="20sp"
+                                android:textStyle="bold" />
+                            <TextView
+                                android:id="@+id/namtamilponmozhi"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="https://nithra.mobi/namtamil/pon_mozhigal/index.php "
+                                android:layout_marginStart="5dp"
+                                android:textColor="#20A8FA" />
+
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:layout_margin="15dp"
+                    app:cardBackgroundColor="#8E24AA"
+                    app:cardCornerRadius="15dp"
+                    android:layout_marginTop="10dp"
+                    app:cardElevation="2dp">
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="6dp"
+                        app:cardBackgroundColor="#FBFDFD"
+                        app:cardCornerRadius="10dp"
+                        android:layout_marginTop="5dp"
+                        app:cardElevation="0dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <androidx.appcompat.widget.AppCompatTextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="5dp"
+                                android:padding="3dp"
+                                android:text="Namtamil Self-Employment"
+                                android:textColor="@color/black"
+                                android:textSize="20sp"
+                                android:textStyle="bold" />
+                            <TextView
+                                android:id="@+id/namtamilself"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="https://nithra.mobi/namtamil/self_employment/index.php"
+                                android:layout_marginStart="5dp"
+                                android:textColor="#20A8FA" />
+
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:layout_margin="15dp"
+                    app:cardBackgroundColor="#8E24AA"
+                    app:cardCornerRadius="15dp"
+                    android:layout_marginTop="10dp"
+                    app:cardElevation="2dp">
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="6dp"
+                        app:cardBackgroundColor="#FBFDFD"
+                        app:cardCornerRadius="10dp"
+                        android:layout_marginTop="5dp"
+                        app:cardElevation="0dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <androidx.appcompat.widget.AppCompatTextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="5dp"
+                                android:padding="3dp"
+                                android:text="Namtamil tamil Kathaigal"
+                                android:textColor="@color/black"
+                                android:textSize="20sp"
+                                android:textStyle="bold" />
+                            <TextView
+                                android:id="@+id/namtamilkathaigal"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="https://nithra.mobi/namtamil/tamil_kathaikal/index.php"
+                                android:layout_marginStart="5dp"
+                                android:textColor="#20A8FA" />
+
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:layout_margin="15dp"
+                    app:cardBackgroundColor="#8E24AA"
+                    app:cardCornerRadius="15dp"
+                    android:layout_marginTop="10dp"
+                    app:cardElevation="2dp">
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="6dp"
+                        app:cardBackgroundColor="#FBFDFD"
+                        app:cardCornerRadius="10dp"
+                        android:layout_marginTop="5dp"
+                        app:cardElevation="0dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <androidx.appcompat.widget.AppCompatTextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="5dp"
+                                android:padding="3dp"
+                                android:text="Namtamil VeduKathaigal"
+                                android:textColor="@color/black"
+                                android:textSize="20sp"
+                                android:textStyle="bold" />
+                            <TextView
+                                android:id="@+id/namtamilvedukathaigal"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text=" https://nithra.mobi/namtamil/tamil_vidukathaigal/index.php"
+                                android:layout_marginStart="5dp"
+                                android:textColor="#20A8FA" />
+
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:layout_margin="15dp"
+                    app:cardBackgroundColor="#8E24AA"
+                    app:cardCornerRadius="15dp"
+                    android:layout_marginTop="10dp"
+                    app:cardElevation="2dp">
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="6dp"
+                        app:cardBackgroundColor="#FBFDFD"
+                        app:cardCornerRadius="10dp"
+                        android:layout_marginTop="5dp"
+                        app:cardElevation="0dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <androidx.appcompat.widget.AppCompatTextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="5dp"
+                                android:padding="3dp"
+                                android:text="Namtamil Tamilnadu tours"
+                                android:textColor="@color/black"
+                                android:textSize="20sp"
+                                android:textStyle="bold" />
+                            <TextView
+                                android:id="@+id/namtamiltours"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="https://nithra.mobi/namtamil/Tamilnadu_Tours/index.php"
+                                android:layout_marginStart="5dp"
+                                android:textColor="#20A8FA" />
+
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:layout_margin="15dp"
+                    app:cardBackgroundColor="#8E24AA"
+                    app:cardCornerRadius="15dp"
+                    android:layout_marginTop="10dp"
+                    app:cardElevation="2dp">
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="6dp"
+                        app:cardBackgroundColor="#FBFDFD"
+                        app:cardCornerRadius="10dp"
+                        android:layout_marginTop="5dp"
+                        app:cardElevation="0dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <androidx.appcompat.widget.AppCompatTextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="5dp"
+                                android:padding="3dp"
+                                android:text="Namtamil temple History"
+                                android:textColor="@color/black"
+                                android:textSize="20sp"
+                                android:textStyle="bold" />
+                            <TextView
+                                android:id="@+id/namtamiltemple"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="https://nithra.mobi/namtamil/temple_history/index.php"
+                                android:layout_marginStart="5dp"
+                                android:textColor="#20A8FA" />
+
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:layout_margin="15dp"
+                    app:cardBackgroundColor="#8E24AA"
+                    app:cardCornerRadius="15dp"
+                    android:layout_marginTop="10dp"
+                    app:cardElevation="2dp">
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="6dp"
+                        app:cardBackgroundColor="#FBFDFD"
+                        app:cardCornerRadius="10dp"
+                        android:layout_marginTop="5dp"
+                        app:cardElevation="0dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <androidx.appcompat.widget.AppCompatTextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="5dp"
+                                android:padding="3dp"
+                                android:text="Namtamil Thirukural"
+                                android:textColor="@color/black"
+                                android:textSize="20sp"
+                                android:textStyle="bold" />
+                            <TextView
+                                android:id="@+id/namtamilthirukural"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="https://nithra.mobi/namtamil/thirukural/index.php"
+                                android:layout_marginStart="5dp"
+                                android:textColor="#20A8FA" />
+
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:layout_margin="15dp"
+                    app:cardBackgroundColor="#8E24AA"
+                    app:cardCornerRadius="15dp"
+                    android:layout_marginTop="10dp"
+                    app:cardElevation="2dp">
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="6dp"
+                        app:cardBackgroundColor="#FBFDFD"
+                        app:cardCornerRadius="10dp"
+                        android:layout_marginTop="5dp"
+                        app:cardElevation="0dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <androidx.appcompat.widget.AppCompatTextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="5dp"
+                                android:padding="3dp"
+                                android:text="Namtamil Proverbs"
+                                android:textColor="@color/black"
+                                android:textSize="20dp"
+                                android:textStyle="bold" />
+                            <TextView
+                                android:id="@+id/namtamilproverb"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="https://nithra.mobi/namtamil/proverbs/index.php"
+                                android:layout_marginStart="5dp"
+                                android:textColor="#20A8FA" />
+
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+
+
+        </androidx.core.widget.NestedScrollView>
+    </LinearLayout>
+
+</LinearLayout>

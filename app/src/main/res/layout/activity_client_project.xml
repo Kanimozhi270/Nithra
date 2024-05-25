@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ClientProject">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/white">
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/baseline_arrow_back_ios_24"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Client project"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginStart="70dp"
+            android:layout_marginTop="17dp"/>
+    </androidx.appcompat.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_margin="15dp"
+            app:cardBackgroundColor="#8E24AA"
+            app:cardCornerRadius="15dp"
+            android:layout_marginTop="10dp"
+            app:cardElevation="2dp">
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="6dp"
+                app:cardBackgroundColor="#FBFDFD"
+                app:cardCornerRadius="10dp"
+                android:layout_marginTop="5dp"
+                app:cardElevation="0dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="20dp"
+                        android:padding="5dp"
+                        android:text="Vani Vidhayalaya"
+                        android:textColor="@color/black"
+                        android:textSize="23sp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:id="@+id/vanividhayalaya"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text=" http://www.vanividhyalaya.com/"
+                        android:layout_marginStart="25dp"
+                        android:textColor="#20A8FA"
+                        android:textSize="15dp"/>
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_margin="15dp"
+            app:cardBackgroundColor="#8E24AA"
+            app:cardCornerRadius="15dp"
+            android:layout_marginTop="10dp"
+            app:cardElevation="2dp">
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="6dp"
+                app:cardBackgroundColor="#FBFDFD"
+                app:cardCornerRadius="10dp"
+                android:layout_marginTop="5dp"
+                app:cardElevation="0dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="20dp"
+                        android:padding="5dp"
+                        android:text="Vani Cbsc"
+                        android:textColor="@color/black"
+                        android:textSize="23sp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:id="@+id/vanicbsc"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="http://vanicbse.com/"
+                        android:layout_marginStart="25dp"
+                        android:textColor="#20A8FA"
+                        android:textSize="15dp"/>
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_margin="15dp"
+            app:cardBackgroundColor="#8E24AA"
+            app:cardCornerRadius="15dp"
+            android:layout_marginTop="10dp"
+            app:cardElevation="2dp">
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="6dp"
+                app:cardBackgroundColor="#FBFDFD"
+                app:cardCornerRadius="10dp"
+                android:layout_marginTop="5dp"
+                app:cardElevation="0dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="20dp"
+                        android:padding="5dp"
+                        android:text="king24X7"
+                        android:textColor="@color/black"
+                        android:textSize="23sp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:id="@+id/king24"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="https://king24x7.com/news/"
+                        android:layout_marginStart="25dp"
+                        android:textColor="#20A8FA"
+                        android:textSize="15dp"/>
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+
+</LinearLayout>

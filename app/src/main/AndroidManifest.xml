@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/app_icon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Nithra"
+        tools:targetApi="31">
+        <activity
+            android:name=".ViewPager"
+            android:exported="false" />
+        <activity
+            android:name=".Viewpage"
+            android:exported="false" />
+        <activity
+            android:name=".Detail"
+            android:exported="false" />
+        <activity
+            android:name=".NithraTamilLabs"
+            android:exported="false" />
+        <activity
+            android:name=".NithraApps"
+            android:exported="false" />
+        <activity
+            android:name=".Nithra"
+            android:exported="false" />
+        <activity
+            android:name=".ClientProject"
+            android:exported="false" />
+        <activity
+            android:name=".Officeproject"
+            android:exported="false" />
+        <activity
+            android:name=".Branch"
+            android:exported="false" />
+        <activity
+            android:name=".WebApplication"
+            android:exported="false" />
+        <activity
+            android:name=".IosApps"
+            android:exported="false" />
+        <activity
+            android:name=".AndroidApps"
+            android:exported="false" />
+        <activity
+            android:name=".Photos"
+            android:exported="false" />
+        <activity
+            android:name=".Departments"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CtoPage"
+            android:exported="false" />
+        <activity
+            android:name=".Directorpage"
+            android:exported="false" />
+        <activity
+            android:name=".CeoPage"
+            android:exported="false" />
+        <activity
+            android:name=".Company_about"
+            android:exported="false" />
+        <activity
+            android:name=".TeamPage"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
