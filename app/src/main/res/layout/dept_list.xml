@@ -6,21 +6,71 @@
     android:layout_height="wrap_content">
 
     <androidx.cardview.widget.CardView
-        android:layout_width="300dp"
-        android:layout_height="200dp"
-        android:layout_gravity="center"
-        app:cardCornerRadius="10dp"
-        android:layout_marginTop="50dp"
-        android:elevation="10dp">
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="#6926F1"
+        android:layout_margin="30dp"
+        app:cardCornerRadius="30dp">
 
-        <ImageView
-            android:layout_width="300dp"
-            android:layout_height="200dp"
-            android:scaleType="fitXY"
-            android:src="@drawable/android6"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ABOUT TEAM"
+                android:textColor="@color/white"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:textSize="23dp"
+                android:gravity="center_horizontal"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="VISION"
+                android:textSize="20dp"
+                android:textColor="@color/white"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:textSize="15dp"
+                android:text="Our mission is to deliver innovative, high-quality Android applications that enhance user experiences and provide reliable solutions to everyday problems. We are dedicated to leveraging the latest technologies and best practices to create user-friendly, efficient, and scalable mobile apps."/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="MISSION"
+                android:textSize="20dp"
+                android:textColor="@color/white"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="20dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="10dp"
+                android:textSize="15dp"
+                android:text="Our vision is to become a leading Android development team known for creating cutting-edge, impactful applications that set industry standards. We strive to foster a culture of continuous learning and creativity, empowering our team to push the boundaries of mobile technology and improve the lives of users globally."/>
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="15dp"
+                android:src="@drawable/nithralogo"/>
+        </LinearLayout>
     </androidx.cardview.widget.CardView>
-
-
 
     <androidx.cardview.widget.CardView
         android:padding="10dp"
@@ -29,8 +79,7 @@
         app:cardCornerRadius="15dp"
         android:layout_marginBottom="10dp"
         android:layout_gravity="center"
-        android:layout_margin="30dp"
-        app:cardBackgroundColor="#EF6C00">
+        app:cardBackgroundColor="#F12648">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -64,11 +113,12 @@
                 android:id="@+id/deptlist"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="Let's We see Android Team Memers"
+                android:text="Let's We see Android Teammates"
                 android:textColor="@color/white"
                 android:textStyle="bold"
                 android:textSize="15dp"
-                android:gravity="center"/>
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="12dp"/>
 
         </LinearLayout>
        <!-- <TextView

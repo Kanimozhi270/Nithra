@@ -13,6 +13,7 @@ public class list {
         this.dob = dob;
         this.joining = joining;
         this.mobile = mobile;
+        this.firstapp = firstapp;
     }
 
     private String team;
@@ -20,6 +21,7 @@ public class list {
     private String dob;
     private String joining;
     private String mobile;
+    private String firstapp;
 
     public list() {
 
@@ -79,5 +81,13 @@ public class list {
 
     public void setMobile(String mobile) {
         this.mobile = mobile;
+    }
+
+    public String getFirstapp() {
+        return firstapp;
+    }
+
+    public void setFirstapp(String firstapp) {
+        this.firstapp = firstapp;
     }
 }

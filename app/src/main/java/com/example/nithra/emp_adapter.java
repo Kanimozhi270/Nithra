@@ -63,6 +63,7 @@ public class emp_adapter extends RecyclerView.Adapter<emp_adapter.ViewHolder> {
                 i.putExtra("DOB",data.get(position).getDob());
                 i.putExtra("Joining",data.get(position).getJoining());
                 i.putExtra("Mobile",data.get(position).getMobile());
+                i.putExtra("Firstapp",data.get(position).getFirstapp());
 
 
                 i.putExtra("positonview",position);

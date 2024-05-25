@@ -54,7 +54,7 @@ public class ViewAdapter extends RecyclerView.Adapter<ViewAdapter.ViewHolder> {
 
     class ViewHolder
             extends RecyclerView.ViewHolder {
-        TextView employee_code,emp_name,team,designation,dob,joining,mobile,prefix;
+        TextView employee_code,emp_name,team,designation,dob,joining,mobile,prefix,firstapp;
 
         public ViewHolder(View itemView)
         {
@@ -66,6 +66,7 @@ public class ViewAdapter extends RecyclerView.Adapter<ViewAdapter.ViewHolder> {
             this.dob = itemView.findViewById(R.id.dob);
             this.joining = itemView.findViewById(R.id.joining);
             this.mobile = itemView.findViewById(R.id.mobile);
+            this.firstapp = itemView.findViewById(R.id.ffirstapp);
             this.prefix = itemView.findViewById(R.id.prefix);
 
         }

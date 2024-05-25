@@ -46,7 +46,7 @@ public class DeptAdapter extends RecyclerView.Adapter<DeptAdapter.ViewHolder> {
         String number = String.format("%02d", posValue);
 
         holder.imagetext.setText(number);
-        holder.topic_name.setText(data.get(position).getTeam());
+       // holder.topic_name.setText(data.get(position).getTeam());
 
 
         holder.itemView.setOnClickListener(new View.OnClickListener() {
@@ -75,7 +75,7 @@ public class DeptAdapter extends RecyclerView.Adapter<DeptAdapter.ViewHolder> {
         public ViewHolder(View itemView)
         {
             super(itemView);
-            this.topic_name = itemView.findViewById(R.id.deptlist);
+            //this.topic_name = itemView.findViewById(R.id.deptlist);
             this.imagetext = itemView.findViewById(R.id.imgtext);
 
         }

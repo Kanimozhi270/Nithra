@@ -31,9 +31,10 @@ public class Viewpage extends AppCompatActivity {
     String dob1;
     String joining;
     String mobile;
+    String firstapp;
 
 
-    TextView code,names,teams,designations,dob,joinings,mobiles,prefix1;
+    TextView code,names,teams,designations,dob,joinings,mobiles,firstapps,prefix1;
     ImageView imageView;
 
     @SuppressLint({"MissingInflatedId", "WrongViewCast"})
@@ -50,6 +51,7 @@ public class Viewpage extends AppCompatActivity {
         dob=findViewById(R.id.dob);
         joinings=findViewById(R.id.joining);
         mobiles=findViewById(R.id.mobile);
+        firstapps=findViewById(R.id.ffirstapp);
 
         imageView = findViewById(R.id.back);
         recyclerView = findViewById(R.id.recyclerview_view);
@@ -77,6 +79,7 @@ public class Viewpage extends AppCompatActivity {
         dob1 = i.getStringExtra("DOB");
         joining = i.getStringExtra("Joining");
         mobile = i.getStringExtra("Mobile");
+        firstapp = i.getStringExtra("Firstapp");
         prefix = name.substring(0,1);
 
 
@@ -89,6 +92,7 @@ public class Viewpage extends AppCompatActivity {
         dob.setText(dob1);
         joinings.setText(joining);
         mobiles.setText(mobile);
+        firstapps.setText(firstapp);
         prefix1.setText(prefix);
 
     }

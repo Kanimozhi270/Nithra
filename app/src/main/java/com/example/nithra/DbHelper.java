@@ -131,7 +131,7 @@ public class DbHelper extends SQLiteOpenHelper {
 
         List<list> listnew = new ArrayList<>();
         //String query = "select * from Employee where Team NOT IN ('Chief Executive Officer','Director','Chief Technology Officer' )";
-        String query = "select DISTINCT Team from Employee where Team = 'Android Team'";
+        String query = "select DISTINCT Team from Employee where Team = 'Program and Product Management'";
 
         Cursor cursor = db.rawQuery(query, null);
         for (cursor.moveToFirst(); !cursor.isAfterLast(); cursor.moveToNext()) {
@@ -175,6 +175,7 @@ public class DbHelper extends SQLiteOpenHelper {
             listname1.setDob(cursor.getString(cursor.getColumnIndexOrThrow("DOB")));
             listname1.setJoining(cursor.getString(cursor.getColumnIndexOrThrow("Joining")));
             listname1.setMobile(cursor.getString(cursor.getColumnIndexOrThrow("Mobile")));
+            listname1.setFirstapp(cursor.getString(cursor.getColumnIndexOrThrow("Firstapp")));
             listname.add(listname1);
         }
         db.close();
